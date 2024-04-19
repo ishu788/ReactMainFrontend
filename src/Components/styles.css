@@ -94,3 +94,14 @@ body {
     padding: 10px 0 10px 0;
   }
   
+  .circle {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(216, 218, 122);
+    border-radius: 50%;
+  }
+
+  .textBookLength {
+    margin: auto;
+  }

@@ -49,11 +49,14 @@ function getAllBooks(){
       <div className='BookList'>
         <div className='container'>
           <div className='row'>
+            
             <div className='col-md-12'>
               <br />
               <h2 className='display-4 text-center'>Books List</h2>
             </div>
-  
+            <div class="circle"  style={{marginLeft:"500px", marginTop:"50px"}}>
+            <p class="textBookLength">{books.length}</p>
+            </div>
             <div className='col-md-11'>
               <Link
                 to='/create-book'
