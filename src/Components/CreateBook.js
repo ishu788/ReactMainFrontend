@@ -28,6 +28,7 @@ function CreateBook() {
       let book = res.data.BookAdded
       console.log(book)
       setMessage('Book Created Successfully');
+      window.location.href = '/'; 
     })
     .catch((err) => {
       setMessage("Error");
